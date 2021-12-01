@@ -16,7 +16,7 @@ public class Client {
 		list.add(euPowerSupply2);
 		list.add(euPowerSupply3);
 		
-		list.forEach(item -> item.plug());
+		list.stream().forEach(item -> item.plug());
 		
 		System.out.println("Adding old legacy system to new system via adapter >>");
 		
@@ -26,6 +26,6 @@ public class Client {
 		System.out.println("Adapter is added..");
 		list.add(ukAdapter);
 		
-		list.forEach(item -> item.plug());
+		list.stream().forEach(item -> item.plug());
 	}
 }
