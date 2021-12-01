@@ -27,6 +27,5 @@ public class Client {
 		list.add(ukAdapter);
 		
 		list.stream().forEach(item -> item.plug());
-		//change
 	}
 }
