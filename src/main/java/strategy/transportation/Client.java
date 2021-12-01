@@ -6,7 +6,9 @@ public class Client {
 		TransportationOperations bus = new Bus();
 		TransportationOperations train = new Train();
 		TransportationRunner tranportation = new TransportationRunner(bus);
-		tranportation.transport();
+		tranportation.transport
+		
+		();
 		
 		tranportation.changeTransportation(train);
 		tranportation.transport();		
