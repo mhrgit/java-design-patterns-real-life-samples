@@ -6,5 +6,6 @@ public class Entry {
 		strategy.restaurant.Client.run();
 		strategy.transportation.Client.run();
 		strategy.currencyconverter.Client.run();
+		adapter.plugadapter.Client.run();
 	}
 }

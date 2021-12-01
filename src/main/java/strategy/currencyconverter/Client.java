@@ -14,5 +14,4 @@ public class Client {
 		int dollarAmount = currencyConverter.convertCurrency(100);
 		System.out.println("The result of conversion :" +dollarAmount + " dollar");
 	}
-
 }
