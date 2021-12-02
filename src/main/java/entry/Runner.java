@@ -6,5 +6,6 @@ public class Runner {
 		strategy.transportation.Client.run();
 		strategy.currencyconverter.Client.run();
 		adapter.plugadapter.Client.run();
+		adapter.coffeemachine.Client.run();
 	}
 }
