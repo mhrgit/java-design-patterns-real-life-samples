@@ -8,5 +8,6 @@ public class Runner {
 		strategy.payment.Client.run();
 		adapter.plugadapter.Client.run();
 		adapter.coffeemachine.Client.run();
+		adapter.paymentadapter.Client.run();
 	}
 }
