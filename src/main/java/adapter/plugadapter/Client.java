@@ -25,7 +25,6 @@ public class Client {
 		
 		System.out.println("Adapter is added..");
 		list.add(ukAdapter);
-		
 		list.stream().forEach(item -> item.plug());
 	}
 }
