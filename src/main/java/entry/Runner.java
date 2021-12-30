@@ -9,5 +9,6 @@ public class Runner {
 		adapter.plugadapter.Client.run();
 		adapter.coffeemachine.Client.run();
 		adapter.paymentadapter.Client.run();
+		strategy.holidaymanager.Client.run();
 	}
 }
